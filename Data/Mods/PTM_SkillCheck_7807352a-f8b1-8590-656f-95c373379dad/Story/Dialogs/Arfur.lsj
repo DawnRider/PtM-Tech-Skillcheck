@@ -65,7 +65,7 @@
                                                 "TagText" : {
                                                    "handle" : "h83e2a5b3g6e2agf29cgb09eg697c8c612c0b",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -242,7 +242,7 @@
                                                 "TagText" : {
                                                    "handle" : "h0af9be21g13e6ga1d7gaf03g894fa0938f9f",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -373,7 +373,17 @@
                            }
                         ],
                         "endnode" : {"type" : "bool", "value" : true},
-                        "setflags" : [ {} ],
+                        "setflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "b58d4225-4c2f-0b8a-891d-8093d1608c2f"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "speaker" : {"type" : "int32", "value" : 0}
                      },
                      {
@@ -455,7 +465,7 @@
                                                 "TagText" : {
                                                    "handle" : "hf9abb4d5g365fg8d36g5568gebe33783680f",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -629,7 +639,7 @@
                                                 "TagText" : {
                                                    "handle" : "hd76bc21bg8c63gf988g7e4dg6741b633eccc",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
@@ -767,7 +777,17 @@
                               ]
                            }
                         ],
-                        "setflags" : [ {} ],
+                        "setflags" : [
+                           {
+                              "flaggroup" : [
+                                 {
+                                    "flag" : [
+                                       {
+                                          "UUID" : {"type" : "FixedString", "value" : "cd7980a2-f328-fc47-9756-2363be69cc3c"},"value" : {"type" : "bool", "value" : true}}
+                                    ],"type" : {"type" : "FixedString", "value" : "Global"}}
+                              ]
+                           }
+                        ],
                         "speaker" : {"type" : "int32", "value" : 0}
                      },
                      {
@@ -797,7 +817,7 @@
                                                 "TagText" : {
                                                    "handle" : "hedf09795g465egcab1ga12dgaa29d9bcb46f",
                                                    "type" : "TranslatedString",
-                                                   "version" : 2
+                                                   "version" : 3
                                                 },
                                                 "stub" : {"type" : "bool", "value" : true}
                                              }
