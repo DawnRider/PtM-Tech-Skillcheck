@@ -1,0 +1,13 @@
+new entry "PTM_Arfur"
+type "Character"
+using "CHA_Bandit_Human_Melee"
+data "Level" "1"
+data "Strength" "10"
+data "Dexterity" "16"
+data "Intelligence" "10"
+data "Wisdom" "8"
+data "Charisma" "10"
+data "Armor" "16"
+data "Vitality" "25"
+data "StepsType" "Leather"
+
