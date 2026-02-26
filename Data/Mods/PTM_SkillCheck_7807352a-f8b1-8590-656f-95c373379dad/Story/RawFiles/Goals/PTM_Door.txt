@@ -7,6 +7,18 @@ IF
 TemplateUseFinished(_Character, (ITEMROOT)PTM_button_eb644802-271e-4c10-bad8-96e6763a7f50, (ITEM)PTM_button_000_f66b91d7-c59b-47fc-9797-edf3f76f169d, 1)
 THEN
 Unlock((ITEM)INTERACT_DOOR_Single_Dungeon_Abbey_B_000_545ec410-a068-404d-86f1-3566223c76d5, _Character);
+
+IF
+EnteredTrigger(_Character, (TRIGGER)EventTrigger_000_3ad696f5-a08e-487c-a14b-174b9e4518dc)
+AND
+IsPlayer(_Character, 1)
+THEN
+RequestPassiveRoll(_Character, _Character, "Skill Check", "Perception", (DIFFICULTYCLASS)Act1_Easy_31e92da6-bac9-46f7-af99-5f33d98fd4f0, 1, "Hidden button");
+
+IF
+RollResult("Hidden button", _Character, _, 1, 0, _)
+THEN
+SetVisible(PTM_button_000_f66b91d7-c59b-47fc-9797-edf3f76f169d, 1);
 EXITSECTION
 
 ENDEXITSECTION
