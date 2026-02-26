@@ -19,6 +19,11 @@ IF
 RollResult("Hidden button", _Character, _, 1, 0, _)
 THEN
 SetVisible(PTM_button_000_f66b91d7-c59b-47fc-9797-edf3f76f169d, 1);
+
+IF
+FlagSet((FLAG)SC_Thief_Scared_b58d4225-4c2f-0b8a-891d-8093d1608c2f, _, _)
+THEN
+Unlock((ITEM)INTERACT_DOOR_Single_Dungeon_Abbey_B_000_545ec410-a068-404d-86f1-3566223c76d5);
 EXITSECTION
 
 ENDEXITSECTION
