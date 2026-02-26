@@ -1,0 +1,4 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "PTM_Arfur_TT"
+new subtable "1,1"
+object category "I_UNI_DoomHammer",1,0,0,0,0,0,0,0
