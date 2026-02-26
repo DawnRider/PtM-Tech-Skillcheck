@@ -6,7 +6,7 @@ KBSECTION
 IF
 DB_Players(_Player)
 THEN
-TemplateAddTo((ITEMROOT)UNI_DoomHammer_2f481fef-1877-4eac-820d-dc3210ff0b36, PTM_Arfur_000_b99d84ca-c99b-4d50-9566-b9afce479c4c, 1, 0);
+TemplateAddTo((ITEMROOT)PTM_key_0b1392d0-5c90-43d0-b5ed-904f99d80bed, PTM_Arfur_000_b99d84ca-c99b-4d50-9566-b9afce479c4c, 1, 0);
 EXITSECTION
 
 ENDEXITSECTION
